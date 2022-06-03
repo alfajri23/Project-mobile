@@ -6,7 +6,7 @@ import 'dart:convert';
 import 'package:news_app/pages/detail.dart';
 
 class Home extends StatefulWidget {
-  const Home({super.key});
+  // const Home({super.key});
 
   @override
   State<Home> createState() => _HomeState();
