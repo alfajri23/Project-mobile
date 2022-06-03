@@ -5,7 +5,8 @@ class DetailPage extends StatelessWidget {
 
   final url,title,content,publishedAt,author,urlToImage;
 
-  DetailPage({this.title="",
+  DetailPage({
+    this.title="",
     this.url="",
     this.content,
     this.publishedAt,

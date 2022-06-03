@@ -30,7 +30,7 @@ class _HomeState extends State<Home> {
 
       // untuk cek data
       if (response.statusCode == 200) {
-        print(response.body);
+        //print(response.body);
         final data = jsonDecode(response.body);
         setState(() {
           _get = data['articles'];
